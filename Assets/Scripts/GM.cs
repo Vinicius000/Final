@@ -126,8 +126,8 @@ public class GM : MonoBehaviour {
 	}
 
 	void GameOver()
-	{
-		timerOn = false;
+	{ 
+		timerOn = false; 
 		ui.gameOver.txtCoinCount.text = "Coins: " + data.coinCount;
 		ui.gameOver.txtTimer.text = "Timer: " + timeLeft.ToString("F1");
 		ui.gameOver.gameOverPanel.SetActive(true);
